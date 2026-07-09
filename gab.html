@@ -28,27 +28,32 @@
     </section>
 
     <section id="calc-simples">
-        <h2>Calculadora Simples</h2>
+    <h2>Calculadora Simples</h2>
 
-    <select name="" id="seletor">
-        <option value="1100">AR-CONDICIONADO</option>
-        <option value="25">MONITOR LCD</option>
-        <option value="150">COMPUTADOR DESKTOP</option>
-        <option value="40">LÂMPADA LED</option>
-        <option value="600">CAFETEIRA ELÉTRICA</option>
-        <option value="1300">CHALEIRA ELÉTRICA</option>
-    </select>
+    <div class="campo-grupo-simples">
+        <label>Selecione o Equipamento:</label>
+        <select name="" id="seletor">
+            <option value="1100">AR-CONDICIONADO</option>
+            <option value="25">MONITOR LCD</option>
+            <option value="150">COMPUTADOR DESKTOP</option>
+            <option value="40">LÂMPADA LED</option>
+            <option value="600">CAFETEIRA ELÉTRICA</option>
+            <option value="1300">CHALEIRA ELÉTRICA</option>
+        </select>
+    </div>
 
-    <label for="">Digite aqui a quantidade de horas diárias que seu equipamento fica ligado:</label>
-    <input id="horas" type="number" placeholder="Ex: 4">
+    <div class="campo-grupo-simples">
+        <label>Digite aqui a quantidade de horas diárias que seu equipamento fica ligado:</label>
+        <input id="horas" type="number" placeholder="Ex: 4">
+    </div>
 
-    <label for="">Digite aqui a quantidade de dias que seu equipamento é utilizado por mês:</label>
-    <input id="dias" type="number" placeholder="Ex: 20">
+    <div class="campo-grupo-simples">
+        <label>Digite aqui a quantidade de dias que seu equipamento é utilizado por mês:</label>
+        <input id="dias" type="number" placeholder="Ex: 20">
+    </div>
 
-    <button id="botao-resultado">
-       CALCULAR
-    </button>
-    </section>
+    <button id="botao-resultado" type="button">CALCULAR</button>
+</section>
 
     <section id="calc-avancada">
         <h2>Calculadora Avançada</h2>
