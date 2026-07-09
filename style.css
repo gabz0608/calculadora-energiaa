@@ -292,7 +292,10 @@ main {
 }
 
 #calc-simples {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 450px; 
 }
 
 #calc-avancada {
@@ -309,12 +312,17 @@ main {
 .campo-grupo-simples {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 8px;
+    width: 100%;
 }
 
 #seletor, #horas, #dias {
     width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     box-sizing: border-box;
+    font-size: 14px;
 }
 
 footer {
