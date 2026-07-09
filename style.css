@@ -79,7 +79,8 @@ main {
     box-sizing: border-box;
     text-align: center;
     text-align-last: center;
-    transition: all 0.2s ease;   
+    transition: all 0.2s ease;  
+    cursor: pointer;
 }
 
 #horas {
