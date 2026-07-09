@@ -106,7 +106,7 @@ main {
 }
 
 footer {
-    background-color: #002855;
+      background-color: #002855;
     border-top: 3px solid #00a2ff;
     height: 10vh;
     width: 100vw;
@@ -118,5 +118,4 @@ footer {
     gap: 5px;
     font-weight: bold;
     font-family: 'Times New Roman', Times, serif;
-    color: #ffffff;
 }
