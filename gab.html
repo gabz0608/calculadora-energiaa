@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <img id="img1" src="/logosenai.png" alt="">
+        <ul>
+            <li><a href="http://127.0.0.1:5501/index.html">HOME</a></li>
+            <li><a href="https://www.instagram.com/gabbentt/">INSTAGRAM</a></li>
+            <li><a href="https://letterboxd.com/bentaqui/">LETTERBOXD</a></li>
+            <li><a href="https://www.linkedin.com/in/gabriel-de-souza-bentaqui-663a6a417/">LINKEDIN</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <div id="esquerda">
+    <h2></h2>
+
+    <section id="aba-selecao">
+        <button id="botao-simples" class="aba-active">Calculadora Simples</button>
+        <button id="botao-avancada">Calculadora Avançada</button>
+    </section>
+
+    <section id="calc-simples">
+        <h2>Calculadora Simples</h2>
+
+    <select name="" id="seletor">
+        <option value="1100">AR-CONDICIONADO</option>
+        <option value="25">MONITOR LCD</option>
+        <option value="150">COMPUTADOR DESKTOP</option>
+        <option value="40">LÂMPADA LED</option>
+        <option value="600">CAFETEIRA ELÉTRICA</option>
+        <option value="1300">CHALEIRA ELÉTRICA</option>
+    </select>
+
+    <label for="">Digite aqui a quantidade de horas diárias que seu equipamento fica ligado:</label>
+    <input id="horas" type="number" placeholder="Ex: 4">
+
+    <label for="">Digite aqui a quantidade de dias que seu equipamento é utilizado por mês:</label>
+    <input id="dias" type="number" placeholder="Ex: 20">
+
+    <button id="botao-resultado">
+       CALCULAR
+    </button>
+    </section>
+
+    <section id="calc-avancada">
+        <h2>Calculadora Avançada</h2>
+
+        <label for="">Nome do Equipamento:</label>
+        <input id="nome-equipamento" type="text" placeholder="Ex: Televisão">
+
+        <label for="">Potência do Equipamento (em watts):</label>
+        <input id="potencia" type="number" placeholder="Ex: 50 W">
+
+        <label for="">Horas de Uso por Dia:</label>
+        <input id="horas-uso" type="number" placeholder="Ex: 4">
+
+        <label for="">Quantidade de Dias de Uso por Mês:</label>
+        <input id="dias-uso" type="number" placeholder="Ex: 20">
+
+        <button id="adicionar-item" type="button">+ Adicionar Item a Lista</button>
+
+        <table id="tabela-equipamentos">
+            <thead>
+                <tr>
+                    <th>Aparelho</th>
+                    <th>Potência (W)</th>
+                    <th>Tempo</th>
+                </tr>
+            </thead>
+            <tbody id="lista-equipamentos"></tbody>
+        </table>
+
+        <button id="botao-calculo-total">Calcule o Consumo Total</button>
+    </section>
+
+        </div>
+    
+        <section id="painel-resultado">
+
+            <h3>Painel de Resultados</h3>
+
+            <p id="kwh">Custo em KWH: <strong id="kwh-hora">0.00 kWh/mês</strong></p>
+
+            <p id="real-hora">Custo em Reais/h: <strong id="reais-hora">R$ 0.00/h</strong></p>
+
+            <p id="real-mes">Custo em Reais/mês: <strong id="reais-mes">R$ 0.00/mês</strong></p>
+
+        </section>
+
+        </div>
+    </main>
+
+    <footer>
+
+    <p>Desenvolvido por: Gabriel Bentaqui, Dafeni Oliveira, Letícia Parrini e Nicolas Oliveira</p>
+
+    <p>© 2026 | Técnico em Cibersistemas - Turma 131 | SENAI</p>
+
+    </footer>
+
+    <script src="gab.js"></script>
+</body>
+</html>
+
