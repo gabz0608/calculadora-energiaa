@@ -299,6 +299,24 @@ main {
     display: none;
 }
 
+#calc-simples {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px; 
+}
+
+.campo-grupo-simples {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#seletor, #horas, #dias {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 footer {
     background-color: #002855;
     border-top: 3px solid #00a2ff;
